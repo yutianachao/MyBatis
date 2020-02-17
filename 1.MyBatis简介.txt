@@ -1,0 +1,12 @@
+每天最好8集
+框架的理解 ： 洗衣板和自动洗衣机的区别
+
+1.MyBatis 持久化层 与数据库有关
+  历史回顾：
+  小工具：JDBC-->DBUtils--->JDBCTemplate 
+          JavaBean-->过程编写Sql-->预编译--->设置参数--->执行Sql--->封装结果--->DBRecords
+  框架：  Hibernate:全自动ORM框架，全自动全映射，消除SQL ,HQL
+  		   JavaBean--->DBRecords
+		  MyBatis:半自动ORM框架，JavaBean--->sql(配置文件中)--->DBRecords
+2.
+
