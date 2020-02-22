@@ -1,6 +1,27 @@
 每天最好8集
 框架的理解 ： 洗衣板和自动洗衣机的区别
 
+如何取消eclipse 汉化
+找到Eclipse的安装路径,用记事本打开eclipse.ini文件。
+在文件最后加上-Duser.language=en
+
+下载SQL驱动
+https://dev.mysql.com/downloads/connector/j/
+下面这种方式快
+https://mvnrepository.com/artifact/mysql/mysql-connector-java
+
+
+集合，例如 List、Map的原理，HashMap基本必问这个不用我多说
+2、并发，例如线程、线程池，锁相关，这些也基本必问
+3、JVM，例如垃圾回收器，垃圾回收算法，OOM处理，jvm参数及调优
+
+
+
+
+
+
+
+
 1.MyBatis 持久化层 与数据库有关
   历史回顾：
   小工具：JDBC-->DBUtils--->JDBCTemplate 
@@ -8,5 +29,9 @@
   框架：  Hibernate:全自动ORM框架，全自动全映射，消除SQL ,HQL
   		   JavaBean--->DBRecords
 		  MyBatis:半自动ORM框架，JavaBean--->sql(配置文件中)--->DBRecords
-2.
-
+2. 下载地址 https://github.com/mybatis/mybatis-3 
+    这个是在仓库中找不到可以用这个方法，release版本很方便。
+3. a .配置全局数据文件，创建mysqlSessionFactory对象：有数据源和运行环境的信息。
+   b .sql 映射文件
+   c. 将sql的映射文件配置到全局文件中
+   d. 写代码
